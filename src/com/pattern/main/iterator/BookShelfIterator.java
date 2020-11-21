@@ -2,6 +2,9 @@ package com.pattern.main.iterator;
 
 import com.pattern.iterator.Iterator;
 
+/**
+ * 遍历书架的类
+ */
 public class BookShelfIterator implements Iterator {
     private BookShelf bookShelf;
     private int index;

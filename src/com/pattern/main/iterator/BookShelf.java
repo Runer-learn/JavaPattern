@@ -3,6 +3,9 @@ package com.pattern.main.iterator;
 import com.pattern.iterator.Aggregate;
 import com.pattern.iterator.Iterator;
 
+/**
+ * 书架
+ */
 public class BookShelf implements Aggregate {
     private Book[] books;
     private int last=0;

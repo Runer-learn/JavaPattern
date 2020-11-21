@@ -4,6 +4,9 @@ import com.pattern.iterator.Iterator;
 import com.pattern.main.iterator.Book;
 import com.pattern.main.iterator.BookShelf;
 
+/**
+ * 测试Iterator模式的主类
+ */
 public class IteratorRuner {
     public static void main(String[] argv){
         BookShelf bookShelf=new BookShelf(4);
