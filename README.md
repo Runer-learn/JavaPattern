@@ -5,3 +5,5 @@
 - Iterator模式
 - Adapter模式
 - Template Method模式
+- Singleton模式
+- Prototype模式
