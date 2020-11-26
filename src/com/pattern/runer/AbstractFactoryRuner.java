@@ -16,7 +16,7 @@ public class AbstractFactoryRuner {
         }
          */
 //        Factory factory=Factory.getFactory(args[0]);
-        Factory factory=Factory.getFactory("ListFactory");
+        Factory factory=Factory.getFactory("com.pattern.main.abstractfactory.ListFactory");
         Link people=factory.createLink("人民日报","http://www.people.com.cn/");
         Link gmw=factory.createLink("光明日报","http://www.gmw.cn/");
 
